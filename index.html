@@ -9,28 +9,48 @@
 </head>
 <body>
     <header>
-        <h1>
+        <h1 id="bti" onmouseenter="entrar()" onmouseout="sair()">
         LINKEDIN
         </h1>
     </header>
     <section>
-        <div class="container">
+       <div class="container">
          <strong>E-mail:</strong>    <br>
             <input type="text" name="txtmsg" id="txt"> <br>
             <strong>Senha:</strong>  <br> 
             <input type="password" name="txtmsg" id = "txt">
-            <input class="sipe" type="button" value = "entrar" id="entrar">
-          </div>
-          <div class="container" >
-            <img src="fotolinkedin.jpg" alt="fotodolinkedin"  >
+            <input class="sipe"type="button" value = "entrar" id="entrar">
+            
+       </div>
+        
+        <div class ="zoom">
+            <img src="fotolinkedin.jpg.jpg" alt="fotodolinkedin">
         </div>
         <h2>Conheça sua nova comunidade profissional. <br> Aumente suas conexões!</h2>
-    </section>
+
+        <div>
+            <strong class="npf">Não possui um perfil?</strong> <br>
+            <a href="https://www.linkedin.com/reg/join" target="_blank">
+            <input class="cadas" type="button" value="Cadastre-se" >
+        </a>
+            
+        </div>
+        
+</section>
+     
     <footer>
         <p>&copy;PáginadeGabriel</p>
     </footer>
+    
     <script>
-        window.alert('Você está visitando o Linkedin')
+        var a = document.getElementById('bti')
+        function entrar(){
+            a.style.color = 'black'
+        }function sair(){
+            a.style.color = 'white'
+        }
+        
     </script>
+    
 </body>
 </html>
