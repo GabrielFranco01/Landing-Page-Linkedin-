@@ -1,6 +1,8 @@
 body{
     display: inline-block;
     background: linear-gradient(white 50% , rgb(85, 85, 231) 50%)
+    
+    
 }
 input,strong{
     border-radius: 10px;
@@ -10,17 +12,25 @@ input,strong{
     position: relative;
     bottom: 250px;
     box-shadow: black 10px;
+    color: blue;
+    font-style: inherit;
+    
 }
-div.lin{
+
+
+ div.lin{
      font-size: arial 15px;
+     
 }
-header{
+
+ header{
   
      text-align: center;
-     font: normal 15pt italic;
+     font: normal 15pt inherit;
      background-color: rgb(50, 50, 143);
      border-radius: 200px;
      color:white;
+     
 }
  footer{
      text-align: center;
@@ -29,25 +39,65 @@ header{
 
  input.sipe{
      color:white;
-    background-color: green;
+    background-color: rgb(52, 52, 199);
     display: block;
     margin-top: 10px;
- }
+    border-bottom-left-radius: 10px;
+    width: 150px;
+    margin-left: 70px;
+}
 img{
     width: auto;
     margin-left: 300px;
     height: auto;
+    
 }
 img , div{
     display: inline-block;
+    
 }
 h2{
-    font-size: 50pt normal arial;
+    font-size: 50pt normal ;
     margin-left: 620px;
     color: white;
+    font-style: oblique;
 }
-#entrar{
+div#entrar{
     background-color: blue;
     color: white;
     border-radius: 10px ;
+}
+h3{
+    color:white;
+}
+input.cadas{
+    background-color: rgb(52, 52, 199);
+    color: white;
+    margin-top: 10px;
+    width: 200px;
+    margin-left: 45px;
+    border-radius: 15px;
+}
+strong.npf{
+    color: aliceblue;
+    font-style: inherit;
+    margin-left: 45px;
+}
+.zoom{
+    overflow: hidden;
+}
+.zoom img{
+    max-width: 100%;
+    -moz-transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+}
+.zoom:hover img{
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+
+}
+.container{
+    font-style: arial;
 }
