@@ -1,8 +1,6 @@
 body{
     display: inline-block;
     background: linear-gradient(white 50% , rgb(85, 85, 231) 50%)
-    
-    
 }
 input,strong{
     border-radius: 10px;
@@ -12,24 +10,18 @@ input,strong{
     position: relative;
     bottom: 250px;
     box-shadow: black 10px;
-    
 }
-
-
- div.lin{
+div.lin{
      font-size: arial 15px;
-     
- }
-
- header{
+}
+header{
   
      text-align: center;
      font: normal 15pt italic;
      background-color: rgb(50, 50, 143);
      border-radius: 200px;
      color:white;
-
-     }
+}
  footer{
      text-align: center;
      margin-bottom: auto;
@@ -45,11 +37,9 @@ img{
     width: auto;
     margin-left: 300px;
     height: auto;
-    
 }
 img , div{
     display: inline-block;
-    
 }
 h2{
     font-size: 50pt normal arial;
